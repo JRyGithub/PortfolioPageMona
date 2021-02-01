@@ -1,6 +1,6 @@
 
 import * as React from "react";
-
+import './Home.scss'
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -9,7 +9,7 @@ class Home extends React.Component {
         const { onRouteChange } = this.props;
         return (
             <section>
-                <div id="home" class="vh-100 dt w-100 tc black cover">
+                <div id="home" class="vh-100 dt w-100 tc black cover home">
                     <div class="dtc v-mid" id="titleContainer">
                         <h1 class="f1 f-headline-l fw1 i black-60">Mona Harnett</h1>
                         <div class="tc pb1 navBar">
