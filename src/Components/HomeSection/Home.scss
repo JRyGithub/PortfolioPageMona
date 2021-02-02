@@ -1,6 +1,14 @@
+@use '../../Style/main.scss';
+
+.titleSection{
+    z-index: 10;
+}
 .cover {
     background-size: cover !important;
 }
 .home{
     background: url(https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/main/src/images/pexels-cottonbro-4272618.jpg) no-repeat center;
+}
+.titleWords:hover{
+    color: main.$primary-color; //lilac
 }

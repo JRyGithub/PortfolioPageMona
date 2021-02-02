@@ -1,0 +1,6 @@
+@use '../Style/main.scss';
+
+html, body {
+    background-color: main.$background-color;
+    overflow: hidden;
+}

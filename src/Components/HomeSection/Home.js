@@ -1,27 +1,40 @@
 
-import * as React from "react";
+import React, { useState } from "react";
 import './Home.scss'
-class Home extends React.Component {
-    constructor(props) {
-        super(props);
+
+
+function Home() {
+
+    const [slid, setSlid] = useState('');
+    const useSlidBg = () => {
+
+        const homeBg = document.getElementById('home');
+        const titleText = document.getElementById('titleContainer');
+        if (!slid) {
+            homeBg.style.transition = "transform 2s";
+            homeBg.style.transform = "translateX(-45%)";
+
+            titleText.style.transition = "transform 2s";
+            titleText.style.transform = "translateX(20%)";
+
+            setSlid(true);
+
+        } else {
+            homeBg.style.transform = "translateX(0)";
+            titleText.style.transform = "translateX(0)";
+
+            setSlid(false);
+        }
     }
-    render() {
-        const { onRouteChange } = this.props;
-        return (
-            <section>
-                <div id="home" class="vh-100 dt w-100 tc black cover home">
-                    <div class="dtc v-mid" id="titleContainer">
-                        <h1 class="f1 f-headline-l fw1 i black-60">Mona Harnett</h1>
-                        <div class="tc pb1 navBar">
-                            <a class="link dim gray f6 f5-ns dib mr3" href="#home" title="Home">Home</a>
-                            <a class="link dim gray f6 f5-ns dib mr3" href="#projects" title="Projects">Projects</a>
-                            <a class="link dim gray f6 f5-ns dib mr3" href="#about" title="About">About</a>
-                            <a class="link dim gray f6 f5-ns dib" href="#contact" title="Contact">Contact</a>
-                        </div>
-                    </div>
+    return (
+        <section className="titleSection">
+            <div id="home" class="vh-100 dt w-100 tc black cover home">
+                <div className="dtc v-mid" id="titleContainer">
+                    <h1 className="f1 f-headline-l fw1 i black-60"><span className="titleWords pointer" onClick={useSlidBg}>Mona Harnett</span></h1>
                 </div>
-            </section>
-        );
-    }
+            </div>
+        </section>
+    );
 }
+
 export default Home;
