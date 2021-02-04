@@ -4,29 +4,18 @@ import Footer from "../Components/Footer/Footer";
 import './App.scss'
 import InformationSection from "./InformationSection/InformationSection";
 
-const intialState = {
-    route: 'home'
-}
 
-class App extends React.Component {
-    constructor() {
-        super();
-        this.state = intialState;
-    }
-    onRouteChange = (route) => {
-        this.setState({ route: route });
-    }
+function App() {
+    return (
+        <main className="App">
+            <div>
+                <Home className="Home" />
+                <InformationSection className="InformationSection" />
+            </div>
+            <Footer />
+        </main>
+    )
 
-    render() {
-        const { route } = this.state;
-        return (
-            <main className="App">
-                    <Home />
-                    <InformationSection />
-                <Footer />
-            </main>
-        )
-    }
 }
 
 export default App;
