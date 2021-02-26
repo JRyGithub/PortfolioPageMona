@@ -1,13 +1,22 @@
 
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import './Home.scss'
 
 
 function Home() {
 
     const [slid, setSlid] = useState('');
-    const useSlidBg = () => {
 
+    useEffect (() => {
+        const titleWords = document.getElementById('titleWords');
+
+        titleWords.addEventListener("click", useSlidBg);
+        return () => {
+            titleWords.removeEventListener("click", useSlidBg);
+          }
+    },[slid]);
+
+    function useSlidBg(){
         const homeBg = document.getElementById('home');
         const titleText = document.getElementById('titleHeader');
         if (!slid) {
@@ -25,11 +34,13 @@ function Home() {
             setSlid(false);
         }
     }
+
+    
     return (
         <section className="titleSection">
             <div id="home" class="vh-100 dt w-100 tc black cover home">
                 <div className="dtc v-mid" id="titleContainer">
-                    <h1 className="f1 f-headline-l fw1 i black-60 " id="titleHeader"><span className="titleWords pointer" onClick={useSlidBg}>Mona Harnett</span></h1>
+                    <h1 className="f1 f-headline-l fw1 i black-60 " id="titleHeader"><span className="titleWords pointer" id="titleWords">Mona Harnett</span></h1>
                 </div>
             </div>
         </section>

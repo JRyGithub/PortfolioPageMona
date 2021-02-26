@@ -5,8 +5,31 @@ import './InformationSection.scss'
 function InformationSection() {
     return (
         <article class="cf">
-            <div class="fr w-25 bg-light-gray tc vh-100">
-                <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100" alt="night sky over water" />
+            <div class="fr w-25 bg-light-gray tc vh-100 pictureRubric">
+                <div class="fl w-100 w-50-ns ph2">
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters030211_960.jpg" /></a>
+                    <a href="" class="no-underline pv2 grow db"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" /></a>
+                    <a href="#" class="no-underline pv2 grow db"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg" /></a>
+                </div>
+                <div class="fl w-50 w-25-ns ph2">
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg" /> </a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/orchid-2-mnkr_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/O270711_960-2.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-020510_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-130610_960.jpg" /></a>
+                </div>
+                <div class="fl w-50 w-25-ns ph2">
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/cc-shanee_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg" /></a>
+                    <a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg" /></a>
+                </div>
             </div>
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div class="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times vh-100">
@@ -61,10 +84,10 @@ function InformationSection() {
                             Anywhere.
                             I do not like green eggs and ham.
                             I do not like them, Sam-I-am.
-                            <br/>
-                            <br/>
+                            <br />
+                            <br />
                             <em>If you would love to chat email me here:</em>
-                            <br/>
+                            <br />
                             mona.harnett@gmail.com
                         </p>
                         <div className="imagesDiv">
@@ -99,4 +122,34 @@ function InformationSection() {
 
 }
 export default InformationSection;
-//<div class="cf backgroundSlidOn vh-100">
+
+{/* <div class="fl w-50 w-50-l overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 pt0 overflow-hidden">
+                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 pt0 overflow-hidden">
+                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
+                </div>
+                <div class="fl w-50 w-50-ns overflow-hidden">
+                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
+                </div>
+                <div class="fl w-50 pt0 overflow-hidden">
+                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
+                </div> */}
