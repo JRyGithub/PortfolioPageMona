@@ -7,98 +7,55 @@ function InformationSection() {
         <article class="cf">
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div className="vh-25 flex">
-                    <div className="bgaqua h-100 w-40">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/flowers.jpg" className="mw-100 min-h-100"/>
+                    <div className="bgaqua h-100 w-40 dim">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/flowers.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                     </div>
-                    <div className="bgred h-100 w-60">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/colorPainting.jpg" className="mw-100 min-h-100"/>
+                    <div className="bgred h-100 w-60 dim">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/colorPainting.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                     </div>
                 </div>
                 <div className="vh-50 flex dib w-100">
                     <div className="w-100">
-                        <div className="bgblue w-100 h-50">
-                            <img src="https://images.pexels.com/photos/1702624/pexels-photo-1702624.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="mw-100 min-h-100"/>
+                        <div className="bgblue w-100 h-50 dim">
+                            <img src="https://images.pexels.com/photos/1702624/pexels-photo-1702624.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="mw-100 min-h-100 pictureInRubric"/>
                         </div>
-                        <div className="bggreen w-100 h-50">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/phonePic.jpg" className="mw-100 min-h-100"/>
+                        <div className="bggreen w-100 h-50 dim">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/phonePic.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                         </div>
                     </div>
                     <div className="w-100">
-                        <div className="bgpink w-100 h-75">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/greenFlower.jpg" className="mw-100 min-h-100"/>
+                        <div className="bgpink w-100 h-75 dim">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/greenFlower.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                         </div>
-                        <div className="bgsilver w-100 h-25">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/painting.jpg" className="mw-100 min-h-100"/>
+                        <div className="bgsilver w-100 h-25 dim">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/painting.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                         </div>  
                     </div>                 
                 </div>
                 <div className="vh-25 flex">
-                    <div className="bgblack w-60">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/houseAndSky.jpg" className="mw-100 min-h-100"/>
+                    <div className="bgblack w-60 dim">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/houseAndSky.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                     </div>
-                    <div className="bgyellow w-40">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/bagOnHead.jpg" className="mw-100 min-h-100"/>
+                    <div className="bgyellow w-40 dim">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/bagOnHead.jpg" className="mw-100 min-h-100 pictureInRubric"/>
                     </div>
                 </div>           
             </div>
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div class="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times vh-100">
                     <header class="bb b--black-70 pv4">
-                        <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Green Eggs and Ham</h3>
-                        <h4 class="f3 fw4 i lh-title mt0">Paris, France</h4>
+                        <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
+                        <h4 class="f3 fw4 i lh-title mt0">Curious. Globetrotter. Economist</h4>
                     </header>
                     <section class="pt5 pb4">
                         <p class="times lh-copy measure f4 mt0">
-                            I am Daniel
-
-                            I am Sam
-                            Sam I am
-
-                            That Sam-I-am
-                            That Sam-I-am!
-                            I do not like
-                            That Sam-I-am
-
-                            Do you like
-                            Green eggs and ham
-
-                            I do not like them,
-                            Sam-I-am.
-                            I do not like
-                            Green eggs and ham.
-
-                            Would you like them
-                            Here or there?
-
-                            I would not like them
-                            Here or there.
-                            I would not like them
-                            Anywhere.
-                            I do not like
-                            Green eggs and ham.
-                            I do not like them,
-                            Sam-I-am
-
-                            Would you like them
-                            In a house?
-                            Would you like them
-                            With a mouse?
-
-                            I do not like them
-                            In a house.
-                            I do not like them
-                            With a mouse.
-                            I do not like them
-                            Here or there.
-                            I do not like them
-                            Anywhere.
-                            I do not like green eggs and ham.
-                            I do not like them, Sam-I-am.
-                            <br />
-                            <br />
-                            <em>If you would love to chat email me here:</em>
-                            <br />
-                            mona.harnett@gmail.com
+                        Welcome to my little webpage, where I house a collection of projects and essays I’m accumulating through out my life.
+                        Frankly everything interests me, which is why I studied economics. The subject is an attempt to understand the workings of our society, disentangling what in our lives is controllable like a science and what is effortless art.I would still proclaim my inner-self as a shy Japanese girl, after having lived there for the first 8 years of my life. 
+                        But most would say the very opposite. My early maturity was nurturing and free roaming amongst the beauty of New Zealand  and now I’m adoring living in the metropole pop of Paris.
+                        Just here looking to do some good in our little world.
+                        Feel free to get in touch with comments, collaborations & cohesions.
+                        <br/>
+                        MH.
                         </p>
                         <div className="imagesDiv">
                             <a
