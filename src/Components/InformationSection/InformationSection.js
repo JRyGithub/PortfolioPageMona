@@ -7,50 +7,34 @@ function InformationSection() {
         <article class="cf">
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div className="vh-25 flex">
-                    <div className="bgaqua h-100 w-40 dim">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/flowers.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                    </div>
-                    <div className="bgred h-100 w-60 dim">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/colorPainting.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                    </div>
+                    <div className="bgaqua h-100 w-40 dim flowers"></div>
+                    <div className="bgred h-100 w-60 dim colorPainting"></div>
                 </div>
                 <div className="vh-50 flex dib w-100">
                     <div className="w-100">
-                        <div className="bgblue w-100 h-50 dim">
-                            <img src="https://images.pexels.com/photos/1702624/pexels-photo-1702624.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="mw-100 min-h-100 pictureInRubric"/>
-                        </div>
-                        <div className="bggreen w-100 h-50 dim">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/phonePic.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                        </div>
+                        <div className="bgblue w-100 h-50 dim basketball"></div>
+                        <div className="bggreen w-100 h-50 dim phonePic"></div>
                     </div>
                     <div className="w-100">
-                        <div className="bgpink w-100 h-75 dim">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/greenFlower.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                        </div>
-                        <div className="bgsilver w-100 h-25 dim">
-                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/painting.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                        </div>  
+                        <div className="bgpink w-100 h-75 dim greenFlower"></div>
+                        <div className="bgsilver w-100 h-25 dim painting"></div>  
                     </div>                 
                 </div>
                 <div className="vh-25 flex">
-                    <div className="bgblack w-60 dim">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/houseAndSky.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                    </div>
-                    <div className="bgyellow w-40 dim">
-                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/bagOnHead.jpg" className="mw-100 min-h-100 pictureInRubric"/>
-                    </div>
+                    <div className="bgblack w-60 dim houseAndSky"></div>
+                    <div className="bgyellow w-40 dim bagOnHead"></div>
                 </div>           
             </div>
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div class="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times vh-100">
                     <header class="bb b--black-70 pv4">
-                        <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
-                        <h4 class="f3 fw4 i lh-title mt0">Curious. Globetrotter. Economist</h4>
+                        <h3 class="titleFont fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
+                        <h4 class="titleFont fw4 i lh-title mt0">Curious. Globetrotter. Economist.</h4>
                     </header>
                     <section class="pt5 pb4">
-                        <p class="times lh-copy measure f4 mt0">
+                        <p class="avenir lh-copy measure textFont mt0">
                         Welcome to my little webpage, where I house a collection of projects and essays I’m accumulating through out my life.
-                        Frankly everything interests me, which is why I studied economics. The subject is an attempt to understand the workings of our society, disentangling what in our lives is controllable like a science and what is effortless art.I would still proclaim my inner-self as a shy Japanese girl, after having lived there for the first 8 years of my life. 
+                        Frankly everything interests me,    which is why I studied economics. The subject is an attempt to understand the workings of our society, disentangling what in our lives is controllable like a science and what is effortless art.I would still proclaim my inner-self as a shy Japanese girl, after having lived there for the first 8 years of my life. 
                         But most would say the very opposite. My early maturity was nurturing and free roaming amongst the beauty of New Zealand  and now I’m adoring living in the metropole pop of Paris.
                         Just here looking to do some good in our little world.
                         Feel free to get in touch with comments, collaborations & cohesions.
@@ -90,57 +74,4 @@ function InformationSection() {
 }
 export default InformationSection;
 
-{/* <div class="fl w-50 w-50-l overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 pt0 overflow-hidden">
-                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 pt0 overflow-hidden">
-                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1489506449317-601a3d1520ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="mw-100 min-h-100 dim" alt="night sky over water" />
-                </div>
-                <div class="fl w-50 w-50-ns overflow-hidden">
-                    <img src="https://preview.redd.it/odp5mi64gyy21.png?width=960&crop=smart&auto=webp&s=a789606eedce25cc00ca4d81b34f81e7803cc30c" class="mw-100 min-h-100 dim cover"></img>
-                </div>
-                <div class="fl w-50 pt0 overflow-hidden">
-                    <img src="https://preview.redd.it/viynhsjiiet11.png?width=960&crop=smart&auto=webp&s=326966d17b05285183d9d6019be73dd4299a42a5" class="mw-100 min-h-100 dim cover"></img>
-                </div> */}
-                /*<div class="fl w-100 w-50-ns ph2">
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters030211_960.jpg" /></a>
-<a href="" class="no-underline pv2 grow db"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" /></a>
-<a href="#" class="no-underline pv2 grow db"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg" /></a>
-</div>
-<div class="fl w-50 w-25-ns ph2">
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg" /> </a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/orchid-2-mnkr_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/O270711_960-2.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-020510_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-130610_960.jpg" /></a>
-</div>
-<div class="fl w-50 w-25-ns ph2">
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/cc-shanee_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg" /></a>
-<a href="" class="pv2 grow db no-underline black"><img class="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg" /></a>
-</div>*/
+//<img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/flowers.jpg" className="mw-100 min-h-100 pictureInRubric"/>
