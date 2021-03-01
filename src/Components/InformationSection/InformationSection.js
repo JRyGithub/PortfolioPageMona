@@ -7,22 +7,38 @@ function InformationSection() {
         <article class="cf">
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div className="vh-25 flex">
-                    <div className="bgaqua h-100 w-40"></div>
-                    <div className="bgred h-100 w-60"></div>
+                    <div className="bgaqua h-100 w-40">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/flowers.jpg" className="mw-100 min-h-100"/>
+                    </div>
+                    <div className="bgred h-100 w-60">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/colorPainting.jpg" className="mw-100 min-h-100"/>
+                    </div>
                 </div>
                 <div className="vh-50 flex dib w-100">
                     <div className="w-100">
-                        <div className="bgblue w-100 h-50"></div>
-                        <div className="bggreen w-100 h-50"></div>
+                        <div className="bgblue w-100 h-50">
+                            <img src="https://images.pexels.com/photos/1702624/pexels-photo-1702624.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className="mw-100 min-h-100"/>
+                        </div>
+                        <div className="bggreen w-100 h-50">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/phonePic.jpg" className="mw-100 min-h-100"/>
+                        </div>
                     </div>
                     <div className="w-100">
-                        <div className="bgpink w-100 h-75"></div>
-                        <div className="bgsilver w-100 h-25"></div>  
+                        <div className="bgpink w-100 h-75">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/greenFlower.jpg" className="mw-100 min-h-100"/>
+                        </div>
+                        <div className="bgsilver w-100 h-25">
+                            <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/painting.jpg" className="mw-100 min-h-100"/>
+                        </div>  
                     </div>                 
                 </div>
                 <div className="vh-25 flex">
-                    <div className="bgblack w-60"></div>
-                    <div className="bgyellow w-40"></div>
+                    <div className="bgblack w-60">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/houseAndSky.jpg" className="mw-100 min-h-100"/>
+                    </div>
+                    <div className="bgyellow w-40">
+                        <img src="https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/bagOnHead.jpg" className="mw-100 min-h-100"/>
+                    </div>
                 </div>           
             </div>
             <div class="fr w-25 bg-light-gray tc vh-100">
