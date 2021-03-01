@@ -12,7 +12,6 @@ function App() {
                 <Home className="Home" />
                 <InformationSection className="InformationSection" />
             </div>
-            <Footer />
         </main>
     )
 
