@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function PictureRubric() {
+function PictureRubric({setRoute}) {
   return (
     <>
     <div className="vh-25 flex">
@@ -10,7 +10,7 @@ function PictureRubric() {
     <div className="vh-50 flex dib w-100">
       <div className="w-100">
         <div className="bgblue w-100 h-50 dim basketball"></div>
-        <div className="bggreen w-100 h-50 dim phonePic"></div>
+        <div className="bggreen w-100 h-50 dim phonePic" onClick={() =>setRoute('surgePricing')}></div>
       </div>
       <div className="w-100">
         <div className="bgpink w-100 h-75 dim greenFlower"></div>

@@ -3,11 +3,11 @@ import './InformationSection.scss';
 import '../PictureRubric/PictureRubric';
 import PictureRubric from "../PictureRubric/PictureRubric";
 
-function InformationSection() {
+function InformationSection( {setRoute}) {
     return (
         <article class="cf">
             <div class="fr w-25 bg-light-gray tc vh-100">
-                <PictureRubric />          
+                <PictureRubric  setRoute={setRoute}/>          
             </div>
             <div class="fr w-25 bg-light-gray tc vh-100">
                 <div class="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times vh-100">

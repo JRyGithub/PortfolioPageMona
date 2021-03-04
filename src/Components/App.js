@@ -1,16 +1,29 @@
-import * as React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Home from "../Components/HomeSection/Home";
-import Footer from "../Components/Footer/Footer";
 import './App.scss'
 import InformationSection from "./InformationSection/InformationSection";
+import PdfPage from "./PdfPage/PdfPage";
 
 
 function App() {
+    const [route, setRoute] = useState('home');
+    
+   
     return (
         <main className="App">
             <div>
-                <Home className="Home" />
-                <InformationSection className="InformationSection" />
+            {
+                route === 'home' ?
+                <>
+                    <Home className="Home" />
+                    <InformationSection className="InformationSection" setRoute={setRoute} />
+                </>
+                :
+                <>
+                    <PdfPage setRoute={setRoute}/>
+                </>
+
+            }
             </div>
         </main>
     )
