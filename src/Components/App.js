@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useState } from "react";
 import Home from "../Components/HomeSection/Home";
 import './App.scss'
 import InformationSection from "./InformationSection/InformationSection";
