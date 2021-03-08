@@ -39,7 +39,7 @@ function Home() {
 
     return (
         <section className="titleSection">
-            <div id="home" class="vh-100 dt w-100 tc black cover home">
+            <div id="home" className="vh-100 dt w-100 tc black cover home">
                 
                     <div className="dtc v-mid" id="titleContainer">
                         <FadeIn transitionDuration='3000'> 

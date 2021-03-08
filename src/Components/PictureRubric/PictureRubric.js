@@ -1,4 +1,5 @@
 import React from "react";
+import './PictureRubric.scss';
 
 function PictureRubric({setRoute}) {
   return (
