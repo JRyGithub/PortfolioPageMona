@@ -12,15 +12,16 @@ function App() {
     return (
         <main className="App">
             <div>
-            {
+            
+                    <Home className="Home" />
+                    {
                 route === 'home' ?
                 <>
-                    <Home className="Home" />
                     <InformationSection className="InformationSection" setRoute={setRoute} />
                 </>
                 :
                 <>
-                    <PdfPage setRoute={setRoute}/>
+                    <PdfPage setRoute={setRoute} route={ route} />
                 </>
 
             }

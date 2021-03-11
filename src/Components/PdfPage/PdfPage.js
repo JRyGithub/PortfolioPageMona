@@ -4,18 +4,20 @@ import PdfDisplay from "../PdfDisplay/PdfDisplay";
 import './PdfPage.scss';
 
 
-function PdfPage( { setRoute }) {
+function PdfPage({ setRoute, route }) {
     return (
-        <section className="pdfPage" class="vh-100 w-100 flex">
-            <div className="commentSection vh-100 w-25">
-                <div className="dtc v-mid" id="titleContainer">
-                    <span className="pointer f3  fw1 i black-60 pa1 dim" onClick={() =>setRoute('home') } role="button"  aria-hidden="true">Home</span>
-                 </div>
-            </div>
-            <div className="pdfSection vh-100 w-75" >
-                <PdfDisplay />
-            </div>
-        </section>
+        <article className="cf">
+            <section className="pdfPage" class="vh-100 fr w-50 flex-wrap">
+                <div className="vh-10 w-100 tc headerForpdf">
+                    <div className="headerForpdf dtc v-mid tc" id="titleContainer">
+                        <span className="pointer f3  fw1 i black-60 pa1 dim tc" onClick={() => setRoute('home')} role="button" aria-hidden="true">Return...</span>
+                    </div>
+                </div>
+                <div className="pdfSection vh-100 w-100" >
+                    <PdfDisplay route={route} />
+                </div>
+            </section>
+        </article>
     );
 }
 

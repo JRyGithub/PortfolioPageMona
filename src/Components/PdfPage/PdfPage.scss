@@ -1,9 +1,5 @@
 @use '../../Style/main.scss';
 
-.commentSection{
-    background: url(https://raw.githubusercontent.com/JRyGithub/PortfolioPageMona/responsiveAndTileAdder/src/images/phonePic.jpg) no-repeat center;
-    background-size: cover;
-}
-.pdfSection{
+.pdfSection,.headerForpdf{
     background-color: white;
 }
