@@ -22,7 +22,8 @@ function InformationSection( {setRoute}) {
                         I would still describe my inner-self as a shy Japanese girl, after having lived there for the first 8 years of my life.  
                         But most would say the very opposite. After Japan, my early years were raised “free range” amongst the beaches and green pastures of New Zealand, a hard bubble to leave... until Covid hit. 
                         I caught a severe travel-bug, that made me yearn to shake things up. So, I pursued my dreams to live/study/grow amongst the metropole pop Parisian rat-race. 
-                        I’m really just out here trying to find how I can do a little good in our little world.<br/>
+                        I’m really just out here trying to find how I can do a little good in our little world.
+                        <br/>
                         Feel free to get in touch with comments, collaborations & cohesions.
                         <br/>
                         MH.
