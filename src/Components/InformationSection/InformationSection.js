@@ -15,7 +15,7 @@ function InformationSection( {setRoute}) {
                         <h3 className="titleFont fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
                         <h4 className="titleFont fw4 i lh-title mt0">Curious. Globetrotter. Economist.</h4>
                     </header>
-                    <section className="pt3 pb3">
+                    <section className="pt1 pb3">
                         <p className="avenir lh-copy measure textFont mt0">
                         Welcome to my little webpage, where I house a collection of accumulated projects and essays. 
                         Frankly everything interests me, which is why I studied economics. The subject is an attempt to understand the workings of our society, disentangling what in our lives is controllable (…heard about libertarian paternalism anyone?) and what elements, you must purely laissez faire. 
