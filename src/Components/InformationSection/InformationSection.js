@@ -14,7 +14,6 @@ function InformationSection( {setRoute}) {
                     <header className="bb b--black-70 pv4">
                         <h3 className="titleFont fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
                         <h4 className="titleFont fw4 i lh-title mt0">Curious. Globetrotter. Economist.</h4>
-                    </header>
                     <section className="pt5 pb4">
                         <p className="avenir lh-copy measure textFont mt0">
                         Welcome to my little webpage, where I house a collection of accumulated projects and essays. 
