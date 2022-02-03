@@ -17,7 +17,7 @@ function InformationSection( {setRoute}) {
                     </header>
                     <section className="pt1 pb3">
                         <p className="avenir lh-copy measure textFont mt0">
-                        Welcome to my little webpage, where I house a collection of accumulated projects and essays. 
+                        Welcome to my little webpage, where I house a collection of accumulated projects and essays.<br/>
                         Frankly everything interests me, which is why I studied economics. The subject is an attempt to understand the workings of our society, disentangling what in our lives is controllable (…heard about libertarian paternalism anyone?) and what elements, you must purely laissez faire. 
                         I would still describe my inner-self as a shy Japanese girl, after having lived there for the first 8 years of my life.  
                         But most would say the very opposite. After Japan, my early years were raised “free range” amongst the beaches and green pastures of New Zealand, a hard bubble to leave... until Covid hit. 
