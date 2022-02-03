@@ -11,7 +11,7 @@ function InformationSection( {setRoute}) {
             </div>
             <div className="fr w-25 bg-light-gray tc vh-100">
                 <div className="fr pa3 pa4-ns bg-white black-70 measure-narrow f3 times vh-100">
-                    <header className="bb b--black-70 pv4">
+                    <header className="bb b--black-70 pv2">
                         <h3 className="titleFont fw7 ttu tracked lh-title mt0 mb3 avenir">Mona Tamara Anaïs Harnett</h3>
                         <h4 className="titleFont fw4 i lh-title mt0">Curious. Globetrotter. Economist.</h4>
                     </header>
